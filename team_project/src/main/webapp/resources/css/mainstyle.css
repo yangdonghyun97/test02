@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   width: 100%;
+   height: 100px;
+   display: flex;
+   justify-content: space-between;
+}
+
+div {
+   /* border: 1px solid black;*/
+   
+}
+
+#search {
+   display: inline-flex;
+   width: 100px;
+   height: 30px;
+
+}
+.search_btn {
+   width: 30px;
+   height: 30px;
+   background-image: url("/resources/images/main/검색.JPG");
+   background-size: contain;
+}
+/*  #logo {
+      width: 200px; height: 100px;
+      background-image: url('/resources/images/logo.JPG');
+      background-size: cover;
+      background-position: center;
+      margin-left: 140px;
+   }*/
+#login {
+   width: 200px;
+   height: 50px;
+   margin-right: 50px;
+   margin-top: 30px;
+   font-family: sans-serif;
+}
+
+.lin {
+   font-family: Georgia, serif;
+   font-size: medium;
+}
+
+#top_menu {
+   width: 100%;
+   height: 50px;
+}
+
+li {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+   font-size: 14px;
+}
+
+.menu {
+   width: 100%;
+   overflow: hidden;
+   margin: 0 auto;
+}
+
+.menu>li {
+
+   width: 16.66%; /*20*5=100%*/
+   float: left;
+   text-align: center;
+   line-height: 40px;
+
+}
+
+.menu a {
+   color: black;
+   font-style: italic;
+}
+
+.submenu>li {
+   line-height: 50px;
+   background-color: white;
+}
+
+.submenu {
+   height: 0; /*ul의 높이를 안보이게 처리*/
+   overflow: hidden;
+}
+
+.menu>li:hover {
+   background-color: #E8F5FF;
+   transition-duration: 0.5s;
+}
+
+.menu>li:hover .submenu {
+   height: auto; /*서브메뉴 li한개의 높이 50*5*/
+   transition-duration: 1s;
+}
+
+.font {
+   font-size: x-small;
+}
+
+sectiontwo, sectionthree {
+   text-align: center;
+}
+
+.cf {
+   display: inline-block;
+}
+
+span {
+   font-size: 35px;
+   font-weight: 600;
+   line-height: 1.2;
+   color: #cad300;
+}
+
+.w3-content w3-section {
+   display: flex;
+   justify-content: center;
+}
+
+#logo {
+   width: 150px; height: 100px;
+   text-align: center;
+   font-size: small;
+   background-image: url("/resources/images/main/logo01.JPG");
+   background-size: cover;
+   margin-left: 150px;
+}
+
+.best {
+   width: 100%;
+   height: 60px;
+   margin-top: 30px;
+}
+
+.item_list, .item_list2 {
+   display: inline-flex;
+   flex-direction: row;
+   width: 100%;
+   height: 500px;
+   margin: 0;
+    padding: 0;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.st_item:hover {
+   border-color:  #ADFF2F;
+}
+.st_item {
+
+   width: 380px;
+   height: 450px;
+   border: 1px solid #c0c0c0;
+   border-radius: 5%;
+   text-align: center;
+}
+.item1_1:hover {
+   color: #AFEEEE;
+}
+
+.m_item1, .m_item2, .m_item3, .m_item4, .m_item5, .m_item6, .m_item7, .m_item8{
+   width: 350px;
+   height: 300px;
+   border-radius: 5%;
+   margin-left: 15px;
+   margin-top: 10px;
+}
+.item1_1{
+   cursor: pointer;
+   margin-top: 20px;
+   
+
+}
+a {
+   color: #8080c0;
+   font-size: x-large;
+}
+.item1_2 {
+   margin-top: 10px;
+   font-size: xx-large;
+}
+.m_item1 {
+   background-image: url("/resources/images/main/프릴헷레인커버.JPG");
+   background-size: cover;
+}
+.m_item2 {
+   background-image: url("/resources/images/main/헷레인커버.JPG");
+   background-size: cover;
+}
+.m_item3 {
+   background-image: url("/resources/images/main/강아지슬링백.JPG");
+   background-size: cover;
+}
+.m_item4 {
+   background-image: url("/resources/images/main/강아지카시트.JPG");
+   background-size: cover;
+}
+.m_item5 {
+   background-image: url("/resources/images/main/패딩하네스.JPG");
+   background-size: cover;
+}
+.m_item6 {
+   background-image: url("/resources/images/main/패딩자켓.JPG");
+   background-size: cover;
+}
+.m_item7 {
+   background-image: url("/resources/images/main/이너레인자켓.JPG");
+   background-size: contain;
+}
+.m_item8 {
+   background-image: url("/resources/images/main/강아지방석.JPG");
+   background-size: contain;
+}
